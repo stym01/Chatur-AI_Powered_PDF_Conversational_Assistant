@@ -30,10 +30,11 @@
 ## 📁 Project Structure
 
 ```
-├── app.py                     # Main Streamlit app
-├── gemini_utils.py            # Handles Gemini LLM setup & generation
-├── rag_chain.py               # Builds RAG pipeline using LangChain
-├── requirements.txt           # Python dependencies
+├── app.py              # Complete Streamlit application logic
+├── requirements.txt    # Python package dependencies
+├── .env                # Gemini API key environment variable
+├── .gitignore          # Ignores .env and other sensitive files
+├── README.md           # Project documentation
 ```
 
 ---
@@ -53,22 +54,15 @@ cd Chatur-AI_Powered_PDF_Conversational_Assistant
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Set Your Gemini API Key
+### 3️⃣ Set Up API Key
 
-Create a `.env` file in the root directory and add your Gemini API key:
+Create a `.env` file in the root directory:
 
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-Or directly paste your key in `gemini_utils.py` like this:
-
-```python
-import google.generativeai as genai
-genai.configure(api_key="your_gemini_api_key_here")
-```
-
-> ✅ Tip: Use `python-dotenv` to load `.env` automatically if needed.
+> ✨ The app reads this key using the `os` module, so make sure to keep `.env` private and secure.
 
 ### 4️⃣ Run the App
 
