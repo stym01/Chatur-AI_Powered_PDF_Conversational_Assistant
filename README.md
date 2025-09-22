@@ -20,7 +20,7 @@
 
 - **Frontend**: Streamlit
 - **Backend**: Python
-- **LLM**: Gemini Pro via VertexAI
+- **LLM**: Gemini Pro
 - **Framework**: LangChain
 - **Document Retrieval**: FAISS
 - **PDF Parsing**: PyMuPDF (`fitz`)
