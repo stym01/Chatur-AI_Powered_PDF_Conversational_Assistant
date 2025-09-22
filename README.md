@@ -23,7 +23,6 @@
 - **LLM**: Gemini Pro
 - **Framework**: LangChain
 - **Document Retrieval**: FAISS
-- **PDF Parsing**: PyMuPDF (`fitz`)
 
 ---
 
