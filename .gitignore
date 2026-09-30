@@ -1,2 +1,4 @@
 faiss_index/
 venv/
+
+.env
