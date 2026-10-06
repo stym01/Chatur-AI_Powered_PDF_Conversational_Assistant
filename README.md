@@ -58,7 +58,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 
 ```
-GEMINI_API_KEY=your_gemini_api_key_here
+GOOGLE_API_KEY=your_gemini_api_key_here
 ```
 
 > ✨ The app reads this key using the `os` module, so make sure to keep `.env` private and secure.
@@ -124,7 +124,8 @@ If you find a bug or have an idea, open an issue or fork the repo.
 Have questions, feedback, or want to collaborate?
 
 - GitHub: [@stym01](https://github.com/stym01)
-- Email: [satyamkesharwani134@gmail.com](mailto:satyamkesharwani134@gmail.com)
+- Email: [stym4193@gmail.com](mailto:stym4193@gmail.com)
+- Portfolio: [satyamk.dev](https://www.satyamk.dev) · Write-up: [Building a RAG PDF Assistant with LangChain, FAISS and Gemini](https://www.satyamk.dev/blog/rag-pdf-assistant-langchain-faiss-gemini)
 
 ---
 
